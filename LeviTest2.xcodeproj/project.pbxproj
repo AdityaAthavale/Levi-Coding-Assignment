@@ -14,6 +14,8 @@
 		3B5DF4871AEF13190037461F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF4861AEF13190037461F /* Images.xcassets */; };
 		3B5DF48A1AEF13190037461F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5DF4881AEF13190037461F /* LaunchScreen.xib */; };
 		3B5DF4961AEF13190037461F /* LeviTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF4951AEF13190037461F /* LeviTest2Tests.m */; };
+		3B5DF4A11AEF19B80037461F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF4A01AEF19B80037461F /* CustomTableViewCell.m */; };
+		3B5DF4A41AEF202B0037461F /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5DF4A31AEF202B0037461F /* FirstCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3B5DF48F1AEF13190037461F /* LeviTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeviTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5DF4941AEF13190037461F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5DF4951AEF13190037461F /* LeviTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeviTest2Tests.m; sourceTree = "<group>"; };
+		3B5DF49F1AEF19B80037461F /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		3B5DF4A01AEF19B80037461F /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		3B5DF4A21AEF202B0037461F /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		3B5DF4A31AEF202B0037461F /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				3B5DF4861AEF13190037461F /* Images.xcassets */,
 				3B5DF4881AEF13190037461F /* LaunchScreen.xib */,
 				3B5DF4791AEF13190037461F /* Supporting Files */,
+				3B5DF49F1AEF19B80037461F /* CustomTableViewCell.h */,
+				3B5DF4A01AEF19B80037461F /* CustomTableViewCell.m */,
+				3B5DF4A21AEF202B0037461F /* FirstCell.h */,
+				3B5DF4A31AEF202B0037461F /* FirstCell.m */,
 			);
 			path = LeviTest2;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				3B5DF4821AEF13190037461F /* ViewController.m in Sources */,
 				3B5DF47F1AEF13190037461F /* AppDelegate.m in Sources */,
+				3B5DF4A41AEF202B0037461F /* FirstCell.m in Sources */,
+				3B5DF4A11AEF19B80037461F /* CustomTableViewCell.m in Sources */,
 				3B5DF47C1AEF13190037461F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
